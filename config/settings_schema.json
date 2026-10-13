@@ -1,1 +1,52 @@
-[]
+[
+  {
+    "name": "Layout",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Page width"
+      },
+      {
+        "type": "range",
+        "id": "page_width",
+        "label": "Page width",
+        "min": 1000,
+        "max": 2000,
+        "step": 40,
+        "default": 1200,
+        "unit": "px"
+      },
+      {
+        "type": "header",
+        "content": "page padding"
+      },
+      {
+        "type": "range",
+        "id": "page_padding",
+        "label": "Page padding",
+        "min": 10,
+        "max": 40,
+        "step": 5,
+        "unit": "px",
+        "default": 15
+      }
+    ]
+  },
+  {
+    "name": "Typography",
+    "settings": [
+      {
+        "type": "font_picker",
+        "id": "body_font",
+        "label": "Body font",
+        "default": "inter_n4"
+      },
+      {
+        "type": "font_picker",
+        "id": "heading_font",
+        "label": "He font",
+        "default": "poppins_n7"
+      }
+    ]
+  }
+]
