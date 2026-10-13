@@ -10,16 +10,11 @@
 {
   "sections": {
     "hero-banner": {
-      "type": "hero_banner",
+      "type": "hero-banner",
       "settings": {}
     },
-    "main": {
-      "type": "header",
-      "settings": {}
-    }
   },
   "order": [
-    "hero-banner",
-    "main"
+    "hero-banner"
   ]
 }
